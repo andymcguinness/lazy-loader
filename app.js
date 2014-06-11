@@ -74,11 +74,3 @@ app.config(
             .otherwise({ redirectTo: '/' });
     }
 );
-
-// app.config(['$routeProvider', function ($routeProvider) {
-//     $routeProvider
-//     .when('/', {
-//                 templateUrl: 'page-home/home.html',
-//                 controller: 'HomeCtrl'
-//             });
-// }]);
